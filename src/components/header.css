@@ -1,0 +1,63 @@
+.head {
+  background-color: #304f37;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  font-weight: bold;
+  color: white;
+}
+
+.head img {
+height: 50px;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact p {
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  position: absolute;
+  z-index: 2;
+}
+
+.link {
+  display: flex;
+}
+
+.pat {
+  display: flex;
+}
+
+.pat p {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  font-size: larger;
+  margin-top: 20px;
+}
+
+.pat p:hover {
+  text-decoration: underline;
+}
+
+.sign {
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  width: max-content;
+}
+
+.find img {
+  height: 30px;
+  margin-left: 600px;
+  margin-right: 20px;
+  margin-top: 20px;
+}

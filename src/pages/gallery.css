@@ -1,0 +1,18 @@
+.gall {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 30px;
+}
+
+.gallery {
+ margin: 100px;
+}
+
+.gallery img {
+  width: 100%;
+}
+
+.ig {
+  margin-top: 90px;
+  margin-left: 1170px;
+}
