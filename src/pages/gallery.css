@@ -1,15 +1,13 @@
-.gall {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  margin-bottom: 30px;
-}
-
 .gallery {
  margin: 100px;
+ columns: 5 100px;
+ margin-bottom: 30px;
+ gap: 5px;
 }
 
 .gallery img {
   width: 100%;
+  border-radius: 15px;
 }
 
 .ig {

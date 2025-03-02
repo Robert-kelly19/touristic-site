@@ -1,7 +1,7 @@
-import Header from "../components/header";
-import Footer from "../components/footer";
-import Card from "../components/card";
-import "./home.css"
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Card from "../components/card"
+import "./Home.css"
 export default function Home() {
   return (
     <>

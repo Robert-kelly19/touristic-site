@@ -1,6 +1,6 @@
-import Footer from "../components/footer";
-import Header from "../components/header";
-import "./about.css";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import "./About.css";
 export default function About() {
   return (
     <>
