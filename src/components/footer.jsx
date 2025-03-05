@@ -17,7 +17,7 @@ export default function Footer() {
               </p>
               <div className="info">
                 <p>Phone: +250 788 123 456</p>
-                <p>Email: info@rwandatourism.com</p>
+                <p>Email: <span>info@rwandatourism.com</span> </p>
                 <p> Address: Kigali, Rwanda</p>
               </div>
             </div>

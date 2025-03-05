@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import Header from "../components/header";
 import Footer from "../components/Footer";
 import Card from "../components/card"
 import "./Home.css"
@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Header />
       <div className="hero">
-        <h1>Experience the beauty <br /> of Cameroon with us</h1>
+        <h1>Experience the beauty of Cameroon with us</h1>
         <p>Discover the Land of a Thousand Hills</p>
       </div>
       <div className="search">

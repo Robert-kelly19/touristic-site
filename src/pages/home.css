@@ -7,19 +7,25 @@
 }
 
 .hero h1 {
-  color: white;
-  text-align: center;
-  font-size: 38px;
-  padding-top: 250px;
-  margin-bottom: 0px;
+  width: 669px;
+  padding-top: 362px;
+  padding-left: 136px;
+  font-family: Lora,;
+  font-size: xx-large;
+  font-weight: 700;
+  line-height: 74.4px;
+  letter-spacing: 0.3%;
+  color: #FFFFFF;
+  
 }
 
 .hero p {
-  color: white;
-  text-align: center;
-  margin-left: -29px;
-  margin-top: 15px;
-  font-size: larger;
+  padding-left: 136px;
+  font-family: Mulish,;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.5%;  
 }
 
 .search {
