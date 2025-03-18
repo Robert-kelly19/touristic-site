@@ -2,9 +2,9 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Package from "./pages/package";
-import Gallery from "./pages/gallery";
-import Contact from "./pages/contact";
+import Package from "./pages/Package";
+import Gallery from "./pages/Gallery";
+import Contact from "./pages/Contact";
 function App() {
   return (
     <>
