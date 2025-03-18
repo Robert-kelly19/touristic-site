@@ -1,5 +1,5 @@
 import Cards from "../components/card";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 import Header from "../components/header";
 import HeroSection from "../components/HeroSection";
 import "./package.css";

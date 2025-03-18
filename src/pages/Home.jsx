@@ -1,5 +1,5 @@
 import Header from "../components/header";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 import Card from "../components/card";
 import "./Home.css";
 export default function Home() {
@@ -336,7 +336,7 @@ export default function Home() {
         <div className="green"></div>
         <div className="green"></div>
       </div>
-      <Footer />
+      <Footer/>
     </>
   );
 }
