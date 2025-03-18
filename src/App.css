@@ -32,14 +32,225 @@ h1 {
   columns: 5 100px;
   margin-bottom: 30px;
   gap: 5px;
- }
+}
  
- .gallery img {
-   width: 100%;
-   border-radius: 15px;
- }
+.gallery img {
+  width: 100%;
+  border-radius: 15px;
+}
  
- .ig {
-   margin-top: 90px;
-   margin-left: 1170px;
- }
+.ig {
+  margin-top: 90px;
+  margin-left: 1170px;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(26, 138, 182, 0.5),rgba(21, 122, 161, 0.507)), url("https://s3-alpha-sig.figma.com/img/673f/2e91/1bcc8157232409198c246b045a73b73f?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hBBh0987JDaDTt9HKTuQXB9XBeUMvHwrTlImQjQNyr9WBvx0d9hdYL8HDMd~5KY9-UqUEtWGlX6P1AELhP7UiuMTFjBoLcHl5udGPR4CXeeE8I9Qc9DKcmhIaYxQNKHpTvE3JqO64hYyaBN6D-V~v6xLktCiCZay6U1FqKReETQ8f0-xHS63zECfkO68rUi3a2PpEtAXlPaNLOumeeGUPfa9D9nSLcKF5k-St3VrfFDsymlNVeYPwo82XjM2ATf-kF9dWe5Mog2ObkFSWQaLfj8Oa8e1ZEELEC-1mUYx86iNDhuoz~iuLquRq-HKju-r0PaB7CuPPpYzzIOW7XJepQ__");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;  
+  margin-top: 25px;
+}
+
+.heroSection {
+  background-image: linear-gradient(rgba(26, 138, 182, 0.5),rgba(21, 122, 161, 0.507)), url("https://s3-alpha-sig.figma.com/img/673f/2e91/1bcc8157232409198c246b045a73b73f?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hBBh0987JDaDTt9HKTuQXB9XBeUMvHwrTlImQjQNyr9WBvx0d9hdYL8HDMd~5KY9-UqUEtWGlX6P1AELhP7UiuMTFjBoLcHl5udGPR4CXeeE8I9Qc9DKcmhIaYxQNKHpTvE3JqO64hYyaBN6D-V~v6xLktCiCZay6U1FqKReETQ8f0-xHS63zECfkO68rUi3a2PpEtAXlPaNLOumeeGUPfa9D9nSLcKF5k-St3VrfFDsymlNVeYPwo82XjM2ATf-kF9dWe5Mog2ObkFSWQaLfj8Oa8e1ZEELEC-1mUYx86iNDhuoz~iuLquRq-HKju-r0PaB7CuPPpYzzIOW7XJepQ__");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;  
+  margin-top: 25px;
+}
+
+.hero1 {
+  display: flex; 
+  margin: 90px 80px 0 80px;
+  justify-content: space-between;
+}
+
+.search {
+  display: flex;
+  justify-content: space-around;
+  background-color: #304f37;
+  width: max-content;
+  padding: 20px;
+  margin-left: 25%;
+  margin-top: -35px;
+  border-radius: 5px; 
+}
+
+.search img {
+  height: 20px;
+  margin-top: 13px;
+  margin-left: -30px;
+}
+
+.cate {
+  display: flex;
+  gap: 50px;
+  margin: 0px 35px 0px 35px;
+}
+
+.cate img {
+  height: 10px;
+  margin: 0;
+}
+
+#search {
+  width: 220px;
+  padding-left: 10px;
+}
+
+h6 {
+  color: grey;
+  font-size: medium;
+  margin-bottom: 5px;
+}
+
+h4 {
+  color: white;
+}
+
+h3 {
+  font-family: "Lora";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: #C7923E;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.direct {
+  justify-content: end;
+  display: flex;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+.place h1 {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 120%;
+  letter-spacing: 0.5%;
+  width: 290px;
+  height: 47px;
+  margin-top: -25px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.dest {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+  gap: 50px;
+  margin-left: 30px;
+}
+
+.place img {
+  width: 300px;
+  height: 300px;
+  top: 2921px;
+  left: 78px;
+  border-radius: 50px; 
+  border: 5px solid #304F47;
+  margin-bottom: 40px;
+}
+
+.place p {
+  width: 248px;
+  height: 80px;
+  top: 3325px;
+  left: 750px;
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0.5%;
+  color: #9A9AB0;
+  margin-left: 20px;
+  padding-bottom: 30px;
+}
+
+
+.choose {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.react {
+  background-color: #304f37;
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.react p {
+  text-align: center;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.react img {
+  height: 50px;
+  margin-left: 100px;
+}
+
+.test {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tcard {
+  background-color: white;
+  box-shadow: grey 1px 2px 4px 1px;
+  width: 300px;
+  margin-bottom: 30px;
+  height: max-content;
+  padding-bottom: 50px;
+}
+
+.tcard p {
+  text-align: center;
+  font-size: large;
+  color: grey;
+}
+
+.tcard h3 {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.tcard img {
+  height: 200px;
+  padding-left: 50px;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+}
+
+.gold {
+  background-color: goldenrod;
+  width: 60px;
+  height: 10px;
+  margin-bottom: 200px;
+  margin-left: 30px;
+}
+
+.green {
+  background-color: #304f37;
+  width: 60px;
+  height: 10px;
+  margin-bottom: 200px;
+  margin-left: 30px;
+}
+
+.white {
+  color: white;
+}

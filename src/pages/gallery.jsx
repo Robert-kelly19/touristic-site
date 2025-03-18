@@ -1,7 +1,6 @@
 import Footer from "../components/footer";
 import Header from "../components/header";
 import HeroSection from "../components/HeroSection";
-import "./Gallery.css";
 
 export default function Gallery() {
   return (
