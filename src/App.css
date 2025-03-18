@@ -26,3 +26,20 @@ h1 {
   margin-top: 10px;
   margin-bottom: 50px;
 }
+
+.gallery {
+  margin: 100px;
+  columns: 5 100px;
+  margin-bottom: 30px;
+  gap: 5px;
+ }
+ 
+ .gallery img {
+   width: 100%;
+   border-radius: 15px;
+ }
+ 
+ .ig {
+   margin-top: 90px;
+   margin-left: 1170px;
+ }
