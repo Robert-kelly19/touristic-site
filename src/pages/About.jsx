@@ -62,7 +62,7 @@ export default function About() {
       <h2></h2>
       <div className="part">
         <img
-          src="https://s3-alpha-sig.figma.com/img/8c88/8b29/002577f7500b2ab4a99aaa7d8e6be7f0?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=qxfKYrtgrraOxbQkcoGbu0datTmEWT8fOiREBEnfSGSOPOORCRE4Xlzi5bi6bb4ubdnI0KSAzQJzaePkMx5FqlGVZk1hvopjDvx4yRFDe5PZ3VTenWJhLiB~E40wzZiS0GBTXHkaPlIfIaai2Cu621Xdhxfx~oULmJQyoPdT21py4zRmYUdwz-46B-gVN3mLc9NP9LlLpZNlUWccixA~imYuo59-4ddMVkCguKeu61up00paei6z5VvDNyiYYBUarLUwLqIF8lXoTxzmFZD3weLrC4N5PxvF9tL7AmSiA85TuL2wOPIsAJwaudkh-WWfLfofoAE-BXR-rgx4uVYCqw__"
+          src="https://s3-alpha-sig.figma.com/img/8c88/8b29/002577f7500b2ab4a99aaa7d8e6be7f0?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=DUkVYW5a4CbNunraibl-GG7aMsQNNvoVw0yGlq8O9dBkUxlNeXHYM2tANom84NHHLPRISnSsBgK63Jz2gklASXl3TdtuNcwjMw7hyKOoXqormxHAUnWMU8-6HlqEZW5g3BPsfTZvlT4upmY3O4ERzAmBg2qIWmjfCs9Wcb6ePfnEKJHBgh9rdHKQnklHH2TQ6T3PUcEyecIsb7sXai1pGLAwTb3YUbkT6qTBAVmWc8lk5QDQDh6Hzxz39jO4qA0vzJhqDcvoROue2xB1B74dBr2gcDEioVIjPlneT-Zv~zK7~VNpcVLdLMKeonv6CZ14dqvxo6szudfy~xIxJ74n6g__"
           alt="place1"
         />
         <p>
@@ -83,13 +83,13 @@ export default function About() {
           exploring the stunning landscapes and rich culture of Rwanda.
         </p>
         <img
-          src="https://s3-alpha-sig.figma.com/img/7600/56f9/b94a31ecc9af090ab219a5e6a933a894?Expires=1740355200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Pjlfi5S6wY5cND1LBYpgubpDXQbowgzVrBSlW3Do56BWjXA0ia6T9BCQzRWvECgW5K0zPPh6hb~cEvJvoVx0ece8OSG9I8vShlrKrWn0dCZ4506FcLDoiz04WByrzvfG~0gVQVb5BeMv3AVcQm1UmQVd8ZHKK~fBJNOQxqA9-TYMb717tCSLQhUnbljajCC47gKG~YZyAiW9shVeRNu~GWx4AsRLyq~OGt9DP92XHkjHB8c-2n3EU2q8tgGqQueaMSJPrwyRBMmXYZFnPJBuG83stDlpyHRnV3HttS6CXov0iookvBcjKTkyeCiE1x7NKMTqc~bWuNc~ps4gKn~9TA__"
+          src="https://s3-alpha-sig.figma.com/img/7600/56f9/b94a31ecc9af090ab219a5e6a933a894?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=XivZg41K-e32KCsVbIeOJ6pNGbC8ig7FsHrf9K6h~UVud7789Vr2Xi6gamrtpCJ4nHV9xbKHwDNX-7MLVrHaE8zbHxJ11AhuHUS39vLE5k6HPs7fB8a6PmRkiPuHuitbr22FdsZ7v3lbVuxnhemOzthLyFDKSnu5Iv-w4QoI6CZxjSb9TLI~q5n8XeHGQMluE65kZPD0gG1bXIECQ-ldh0wUCfYuoKZdrRtR5DGBfmr4LH~JBORCiYZf7Se~O-RuZN6cLKjflPfslnh1R9BqIOQ4hGcTeh3mNUbhwChbYNy7~kN6MVG7oy58tPzI9Dbme-NMzP4saKdehPzYLofDpg__"
           alt="place2"
         />
       </div>
       <div className="part">
         <img
-          src="https://s3-alpha-sig.figma.com/img/673f/2e91/1bcc8157232409198c246b045a73b73f?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=foak2mjmUXr7ItOMIYLi5diqqDjEuytziUBPOvL25RCkOSuH5Tnrpw9VdMcGZWne2oegZ01ytzH7JX6n5J-s8PpAB62Z-JHedPLe7yLeD6jdIs9UAuMBO0GxqBEbvevhRJrE5pBHhgx6huvsVcXmeGN-mdRKp963bL23gObCig457qgaZfQ3Rcr57AzRCvV9278Tnl6PIqPq47rE11AGVnikLZOegNgM8cHsJUmXRdNa~k7Yn~DXwRVlNyLH9JJTskyueY8ycyxhL93jkIcjLAq8iv0--4U0dy2ZbgNovFPX1klWbUL-EMoYNIoqg51fQJIYDrK~R9kpOwIaI8j8fw__"
+          src="https://s3-alpha-sig.figma.com/img/fd63/971c/9ce5d2804ffd9f32ac67720292bd35a8?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=tXckDIaPbPgmvrNgwpW19trCyoIUx6g3T386gckX7e9gE6EMPsbLlb6ITwebYf7jPapTcpLTx4a-0IhpujhfNsPRAC45LnIfwKPseB66tdTyjvwM47Fv3xn6AxIqfZb6LQU43kRIRG8KBzcD4j1sUK0q41THbXLvOLM7gmCz9bI0XW4smG~ax~o7yrGUDN4zZ1BedEV7nIPq0BF8joZ-mA~qansWTq7ipar1pbrQedjkibYlhCXKjIoPlQv0jV9lntCqfGL~tFShSQos1lYqYhZFOS0XDnCpJ6P03~cHdI8NlkJCUH1saatKTY6ql6LRVsUuVgBTTYeqKAXgCzUTwQ__"
           alt="place3"
         />
         <p>

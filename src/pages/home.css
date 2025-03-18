@@ -1,31 +1,23 @@
 .hero {
-  background-image: linear-gradient(rgba(26, 138, 182, 0.5),rgba(21, 122, 161, 0.507)), url("https://s3-alpha-sig.figma.com/img/673f/2e91/1bcc8157232409198c246b045a73b73f?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Xm2TSCgR~tueoYTOae~BMQ4jMLgqoffyjmIWou4dQEHgeY1L14ap0V~TdiamPlaKli0XpO~V2evju6NLdq7iWfzrBpbETukKey7jMg7cNYZgmBWLfGyLRSh6u-uTaAPUvGIOUoba-l9FgkASOwiVto81mKc9-uvmyAcAHYA069jTD1NlHIcbe-otP0yqQIX4eflVFRmx7vwCrpu5GsnwJPPT1KA5WzOpBVaqMITjfs5XEgie8077paNch1oQBzW7H5ytEbjCyzYvl4IiBIGP307zwdeKJRlBuWn2ZJ1LGJxAOhwsbA9EF8vOCTfH1MM7Ce0rQLdRpbMZq9oXobXWLA__");
+  background-image: linear-gradient(rgba(26, 138, 182, 0.5),rgba(21, 122, 161, 0.507)), url("https://s3-alpha-sig.figma.com/img/673f/2e91/1bcc8157232409198c246b045a73b73f?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hBBh0987JDaDTt9HKTuQXB9XBeUMvHwrTlImQjQNyr9WBvx0d9hdYL8HDMd~5KY9-UqUEtWGlX6P1AELhP7UiuMTFjBoLcHl5udGPR4CXeeE8I9Qc9DKcmhIaYxQNKHpTvE3JqO64hYyaBN6D-V~v6xLktCiCZay6U1FqKReETQ8f0-xHS63zECfkO68rUi3a2PpEtAXlPaNLOumeeGUPfa9D9nSLcKF5k-St3VrfFDsymlNVeYPwo82XjM2ATf-kF9dWe5Mog2ObkFSWQaLfj8Oa8e1ZEELEC-1mUYx86iNDhuoz~iuLquRq-HKju-r0PaB7CuPPpYzzIOW7XJepQ__");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;  
   margin-top: 25px;
 }
 
-.hero h1 {
-  width: 669px;
-  padding-top: 362px;
-  padding-left: 136px;
-  font-family: Lora,;
-  font-size: xx-large;
-  font-weight: 700;
-  line-height: 74.4px;
-  letter-spacing: 0.3%;
-  color: #FFFFFF;
-  
+.heroSection {
+  background-image: linear-gradient(rgba(26, 138, 182, 0.5),rgba(21, 122, 161, 0.507)), url("https://s3-alpha-sig.figma.com/img/673f/2e91/1bcc8157232409198c246b045a73b73f?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hBBh0987JDaDTt9HKTuQXB9XBeUMvHwrTlImQjQNyr9WBvx0d9hdYL8HDMd~5KY9-UqUEtWGlX6P1AELhP7UiuMTFjBoLcHl5udGPR4CXeeE8I9Qc9DKcmhIaYxQNKHpTvE3JqO64hYyaBN6D-V~v6xLktCiCZay6U1FqKReETQ8f0-xHS63zECfkO68rUi3a2PpEtAXlPaNLOumeeGUPfa9D9nSLcKF5k-St3VrfFDsymlNVeYPwo82XjM2ATf-kF9dWe5Mog2ObkFSWQaLfj8Oa8e1ZEELEC-1mUYx86iNDhuoz~iuLquRq-HKju-r0PaB7CuPPpYzzIOW7XJepQ__");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;  
+  margin-top: 25px;
 }
 
-.hero p {
-  padding-left: 136px;
-  font-family: Mulish,;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 25px;
-  letter-spacing: 0.5%;  
+.hero1 {
+  display: flex; 
+  margin: 90px 80px 0 80px;
+  justify-content: space-between;
 }
 
 .search {
@@ -41,7 +33,7 @@
 
 .search img {
   height: 20px;
-  margin-top: 5px;
+  margin-top: 13px;
   margin-left: -30px;
 }
 
@@ -72,46 +64,68 @@ h4 {
 }
 
 h3 {
-  color: goldenrod;
+  font-family: "Lora";
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: #C7923E;
   text-align: center;
-  margin: 70px 0px 10px 0px;
-  font-size: x-large;
+  margin-top: 70px;
 }
 
-h1 {
-  text-align: center;
-  font-size: xx-large;
-  margin-bottom: 75px;
+.direct {
+  justify-content: end;
+  display: flex;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+
+.place h1 {
+  font-family: "Lora", serif;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 120%;
+  letter-spacing: 0.5%;
+  width: 290px;
+  height: 47px;
+  margin-top: -25px;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .dest {
   display: flex;
   overflow: hidden;
   overflow-x: scroll;
-}
-
-.place {
-  background-color: #fff;
-  border-radius: 15px;
-  margin: 15px;
-  box-shadow: grey 2px 4px 6px 1px;
+  gap: 50px;
+  margin-left: 30px;
 }
 
 .place img {
   width: 300px;
   height: 300px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-.place h1 {
-  margin-bottom: 10px;
+  top: 2921px;
+  left: 78px;
+  border-radius: 50px; 
+  border: 5px solid #304F47;
+  margin-bottom: 40px;
 }
 
 .place p {
-  padding: 5px;
-  font-size: large                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ;
+  width: 248px;
+  height: 80px;
+  top: 3325px;
+  left: 750px;
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+  letter-spacing: 0.5%;
+  color: #9A9AB0;
+  margin-left: 20px;
+  padding-bottom: 30px;
 }
+
 
 .choose {
   display: flex;

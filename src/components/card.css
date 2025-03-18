@@ -4,31 +4,47 @@
 }
 
 .card {
-  background-color: white;
-  width: 300px;
+  border: 1px solid #E1E1E1;
+  width: 350px;
+  height: 584px;
+  border-width: 1px;
+  border-radius: 8px;
   overflow: hidden;
-  border-radius: 10px;
-  box-shadow: grey 3px 3px 3px 2px;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
+  padding-bottom: 20px;
 }
 
 .container img {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   margin-bottom: 20px;
 }
 
-.text {
-  padding: 0 0 10px 10px;
-}
-
-button {
+.card button {
   color: white;
-  margin-top: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
-h1 {
-  font-size: 29px;
-  margin-bottom: 5px;
+.card h1 {
+  font-family: "lora", serif;
+  font-weight: 1000;
+  font-size: 24px;
+  width: 322px;
+  text-align: left;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+
+.card p {
+  width: 256px;
+  height: 100px;
+  top: 1666px;
+  left: 119px;
+  font-family: "Mulish";
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 0;
+  padding-left: 10px;
 }
 

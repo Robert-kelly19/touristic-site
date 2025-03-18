@@ -1,28 +1,20 @@
 import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Header from "../components/header";
+import HeroSection from "../components/HeroSection";
 import "./Gallery.css";
 
 export default function Gallery() {
   return (
     <>
       <Header />
-      <div className="hero">
-        <h1>Gallery</h1>
-        <p>
-          Home{" "}
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/1635/1635634.png"
-            alt="left"
-          />
-          <span>Gallery</span>
-        </p>
-      </div>
+      <HeroSection text={{ page: "Gallery" }} />
 
       <button type="submit" className="ig">
         Open Instagram
       </button>
       <div className="gallery">
-        <div className="gall"><img
+        <div className="gall">
+          <img
             src="https://i.pinimg.com/236x/4a/1d/86/4a1d8672b5a964a2b18baa0c7e7d8763.jpg"
             alt="1"
           />
@@ -53,8 +45,10 @@ export default function Gallery() {
           <img
             src="https://i.pinimg.com/236x/bf/d4/25/bfd4255e186c706c490719fb48480e8e.jpg"
             alt="8"
-          /></div>
-        <div className="gall"><img
+          />
+        </div>
+        <div className="gall">
+          <img
             src="https://i.pinimg.com/236x/5d/39/69/5d3969637ff22705460c99fd9fd39408.jpg"
             alt="9"
           />
@@ -86,13 +80,13 @@ export default function Gallery() {
             src="https://i.pinimg.com/236x/05/f3/82/05f38280e6910267399d7dcf0fb3e249.jpg"
             alt="16"
           />
-            <img
+          <img
             src="https://i.pinimg.com/236x/57/9c/b8/579cb85c176e70e1590b091af612c835.jpg"
             alt="25"
           />
         </div>
         <div className="gall">
-        <img
+          <img
             src="https://i.pinimg.com/236x/2a/e2/9f/2ae29f121e0617d3d8e09cf2e4c7bb7a.jpg"
             alt="17"
           />
@@ -124,7 +118,7 @@ export default function Gallery() {
             src="https://i.pinimg.com/236x/97/8d/a6/978da6f4e432acc8dff21d7168164523.jpg"
             alt="24"
           />
-           <img
+          <img
             src="https://i.pinimg.com/236x/55/a6/d8/55a6d84d31c4528e301dacba7d9b398a.jpg"
             alt="26"
           />

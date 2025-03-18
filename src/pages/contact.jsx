@@ -2,6 +2,7 @@ import Footer from "../components/Footer";
 import Header from "../components/header";
 import { useFormik } from "formik";
 import "./Contact.css";
+import HeroSection from "../components/HeroSection";
 export default function Contact() {
   const form = useFormik({
     initialValues: {
@@ -15,17 +16,7 @@ export default function Contact() {
   return (
     <>
       <Header />
-      <div className="hero">
-        <h1>Contact Us</h1>
-        <p>
-          Home{" "}
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/1635/1635634.png"
-            alt="left"
-          />
-          <span>Contact</span>
-        </p>
-      </div>
+      <HeroSection text={{page: 'Contact Us'}} />
       <h1 className="con1">Get in Touch</h1>
       <p className="con2">
         We would love to hear from you! If you have any comments or suggestions
@@ -35,7 +26,9 @@ export default function Contact() {
       </p>
       <form onSubmit={form.handleSubmit}>
         <h5>Contact Us</h5>
-        <label htmlFor="firstName">First Name</label>
+        <div className="first-last">
+          <div>
+          <label htmlFor="firstName">First Name</label>
         <input
           id="firstname"
           name="firstName"
@@ -44,7 +37,8 @@ export default function Contact() {
           onChange={form.handleChange}
           value={form.values.firstName}
         />
-        <label htmlFor="lastName">Last Name</label>
+          </div>
+        <div><label htmlFor="lastName">Last Name</label>
         <input
           id="lastName"
           name="lastName"
@@ -52,7 +46,8 @@ export default function Contact() {
           placeholder="input your Last Name in here"
           onChange={form.handleChange}
           value={form.values.lastName}
-        />
+        /></div>
+        </div>
         <label htmlFor="email">Email Address</label>
         <input
           id="email"
@@ -103,7 +98,6 @@ export default function Contact() {
           Submit
         </button>
       </form>
-
       <div className="inform">
         <div className="social">
           <h1>Social Media</h1>
@@ -144,8 +138,8 @@ export default function Contact() {
                 stroke="#304F47"
               />
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M14.0625 16.7893C14.0625 15.6847 14.9579 14.7893 16.0625 14.7893H33.9375C35.0421 14.7893 35.9375 15.6847 35.9375 16.7893V35.7949C35.9375 36.8994 35.0421 37.7949 33.9375 37.7949H16.0625C14.9579 37.7949 14.0625 36.8994 14.0625 35.7949V16.7893ZM25.0001 21.5241C22.5407 21.5241 20.4959 23.63 20.4959 26.2921C20.4959 28.9542 22.5407 31.0601 25.0001 31.0601C27.4596 31.0601 29.5043 28.9542 29.5043 26.2921C29.5043 23.63 27.4596 21.5241 25.0001 21.5241ZM19.2959 26.2921C19.2959 23.0249 21.8216 20.3241 25.0001 20.3241C28.1786 20.3241 30.7043 23.0249 30.7043 26.2921C30.7043 29.5593 28.1786 32.2601 25.0001 32.2601C21.8216 32.2601 19.2959 29.5593 19.2959 26.2921ZM31.5624 20.9241C32.3678 20.9241 33.0207 20.2375 33.0207 19.3904C33.0207 18.5434 32.3678 17.8567 31.5624 17.8567C30.757 17.8567 30.1041 18.5434 30.1041 19.3904C30.1041 20.2375 30.757 20.9241 31.5624 20.9241Z"
                 fill="#304F47"
               />
