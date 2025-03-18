@@ -1,7 +1,6 @@
 import Footer from "../components/footer";
 import Header from "../components/header";
 import { useFormik } from "formik";
-import "./Contact.css";
 import HeroSection from "../components/HeroSection";
 export default function Contact() {
   const form = useFormik({
