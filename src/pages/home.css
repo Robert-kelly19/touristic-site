@@ -1,0 +1,190 @@
+.hero {
+  background-image: linear-gradient(rgba(26, 138, 182, 0.5),rgba(21, 122, 161, 0.507)), url("https://s3-alpha-sig.figma.com/img/673f/2e91/1bcc8157232409198c246b045a73b73f?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Xm2TSCgR~tueoYTOae~BMQ4jMLgqoffyjmIWou4dQEHgeY1L14ap0V~TdiamPlaKli0XpO~V2evju6NLdq7iWfzrBpbETukKey7jMg7cNYZgmBWLfGyLRSh6u-uTaAPUvGIOUoba-l9FgkASOwiVto81mKc9-uvmyAcAHYA069jTD1NlHIcbe-otP0yqQIX4eflVFRmx7vwCrpu5GsnwJPPT1KA5WzOpBVaqMITjfs5XEgie8077paNch1oQBzW7H5ytEbjCyzYvl4IiBIGP307zwdeKJRlBuWn2ZJ1LGJxAOhwsbA9EF8vOCTfH1MM7Ce0rQLdRpbMZq9oXobXWLA__");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;  
+  margin-top: 25px;
+}
+
+.hero h1 {
+  color: white;
+  text-align: center;
+  font-size: 38px;
+  padding-top: 250px;
+  margin-bottom: 0px;
+}
+
+.hero p {
+  color: white;
+  text-align: center;
+  margin-left: -29px;
+  margin-top: 15px;
+  font-size: larger;
+}
+
+.search {
+  display: flex;
+  justify-content: space-around;
+  background-color: #304f37;
+  width: max-content;
+  padding: 20px;
+  margin-left: 25%;
+  margin-top: -35px;
+  border-radius: 5px; 
+}
+
+.search img {
+  height: 20px;
+  margin-top: 5px;
+  margin-left: -30px;
+}
+
+.cate {
+  display: flex;
+  gap: 50px;
+  margin: 0px 35px 0px 35px;
+}
+
+.cate img {
+  height: 10px;
+  margin: 0;
+}
+
+#search {
+  width: 220px;
+  padding-left: 10px;
+}
+
+h6 {
+  color: grey;
+  font-size: medium;
+  margin-bottom: 5px;
+}
+
+h4 {
+  color: white;
+}
+
+h3 {
+  color: goldenrod;
+  text-align: center;
+  margin: 70px 0px 10px 0px;
+  font-size: x-large;
+}
+
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  margin-bottom: 75px;
+}
+
+.dest {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+.place {
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 15px;
+  box-shadow: grey 2px 4px 6px 1px;
+}
+
+.place img {
+  width: 300px;
+  height: 300px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.place h1 {
+  margin-bottom: 10px;
+}
+
+.place p {
+  padding: 5px;
+  font-size: large                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ;
+}
+
+.choose {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.react {
+  background-color: #304f37;
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.react p {
+  text-align: center;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.react img {
+  height: 50px;
+  margin-left: 100px;
+}
+
+.test {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tcard {
+  background-color: white;
+  box-shadow: grey 1px 2px 4px 1px;
+  width: 300px;
+  margin-bottom: 30px;
+  height: max-content;
+  padding-bottom: 50px;
+}
+
+.tcard p {
+  text-align: center;
+  font-size: large;
+  color: grey;
+}
+
+.tcard h3 {
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.tcard img {
+  height: 200px;
+  padding-left: 50px;
+}
+
+.empty {
+  display: flex;
+  justify-content: center;
+}
+
+.gold {
+  background-color: goldenrod;
+  width: 60px;
+  height: 10px;
+  margin-bottom: 200px;
+  margin-left: 30px;
+}
+
+.green {
+  background-color: #304f37;
+  width: 60px;
+  height: 10px;
+  margin-bottom: 200px;
+  margin-left: 30px;
+}
+
+.white {
+  color: white;
+}
