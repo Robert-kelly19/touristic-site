@@ -16,7 +16,9 @@ export default function Footer() {
               </p>
               <div className="info">
                 <p>Phone: +250 788 123 456</p>
-                <p>Email: <span>info@rwandatourism.com</span> </p>
+                <p>
+                  Email: <span>info@rwandatourism.com</span>{" "}
+                </p>
                 <p> Address: Kigali, Rwanda</p>
               </div>
             </div>
@@ -42,26 +44,29 @@ export default function Footer() {
                 id="logo"
               />
               <div className="media">
-                <img
-                  src="https://www.pngall.com/wp-content/uploads/13/Facebook-White-Logo.png"
-                  alt="fb"
-                />
-                <img
-                  src="https://www.pngkey.com/png/full/376-3769707_facebook-icon-instagram-icon-twitter-icon-twitter-icon.png"
-                  alt="x"
-                />
-                <img
-                  src="https://parkhotel.mk/wp-content/uploads/2017/01/linkedin-icon-300x300-1.png"
-                  alt="linkedin"
-                />
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Instagram_logo.png/480px-Instagram_logo.png"
-                  alt="ig"
-                />
+                <div className="media1">
+                  <img
+                    src="https://www.pngall.com/wp-content/uploads/13/Facebook-White-Logo.png"
+                    alt="fb"
+                  />
+                  <img
+                    src="https://www.pngkey.com/png/full/376-3769707_facebook-icon-instagram-icon-twitter-icon-twitter-icon.png"
+                    alt="x"
+                  />
+                  <img
+                    src="https://parkhotel.mk/wp-content/uploads/2017/01/linkedin-icon-300x300-1.png"
+                    alt="linkedin"
+                  />
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Instagram_logo.png/480px-Instagram_logo.png"
+                    alt="ig"
+                  />
+                </div>
               </div>
             </div>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting<br/>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              <br />
               industry.
             </p>
             <div className="list">
