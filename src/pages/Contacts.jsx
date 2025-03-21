@@ -26,7 +26,7 @@ export default function Contact() {
       <form onSubmit={form.handleSubmit}>
         <h5>Contact Us</h5>
         <div className="first-last">
-          <div>
+          <div  className="name">
           <label htmlFor="firstName">First Name</label>
         <input
           id="firstname"
@@ -37,7 +37,7 @@ export default function Contact() {
           value={form.values.firstName}
         />
           </div>
-        <div><label htmlFor="lastName">Last Name</label>
+        <div className="name"><label htmlFor="lastName">Last Name</label>
         <input
           id="lastName"
           name="lastName"

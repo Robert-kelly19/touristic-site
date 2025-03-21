@@ -44,15 +44,7 @@ h1 {
   margin-left: 1170px;
 }
 
-.hero {
-  background-image: linear-gradient(rgba(26, 138, 182, 0.5),rgba(21, 122, 161, 0.507)), url("https://s3-alpha-sig.figma.com/img/673f/2e91/1bcc8157232409198c246b045a73b73f?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hBBh0987JDaDTt9HKTuQXB9XBeUMvHwrTlImQjQNyr9WBvx0d9hdYL8HDMd~5KY9-UqUEtWGlX6P1AELhP7UiuMTFjBoLcHl5udGPR4CXeeE8I9Qc9DKcmhIaYxQNKHpTvE3JqO64hYyaBN6D-V~v6xLktCiCZay6U1FqKReETQ8f0-xHS63zECfkO68rUi3a2PpEtAXlPaNLOumeeGUPfa9D9nSLcKF5k-St3VrfFDsymlNVeYPwo82XjM2ATf-kF9dWe5Mog2ObkFSWQaLfj8Oa8e1ZEELEC-1mUYx86iNDhuoz~iuLquRq-HKju-r0PaB7CuPPpYzzIOW7XJepQ__");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;  
-  margin-top: 25px;
-}
-
-.heroSection {
+.hero, .heroSection {
   background-image: linear-gradient(rgba(26, 138, 182, 0.5),rgba(21, 122, 161, 0.507)), url("https://s3-alpha-sig.figma.com/img/673f/2e91/1bcc8157232409198c246b045a73b73f?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=hBBh0987JDaDTt9HKTuQXB9XBeUMvHwrTlImQjQNyr9WBvx0d9hdYL8HDMd~5KY9-UqUEtWGlX6P1AELhP7UiuMTFjBoLcHl5udGPR4CXeeE8I9Qc9DKcmhIaYxQNKHpTvE3JqO64hYyaBN6D-V~v6xLktCiCZay6U1FqKReETQ8f0-xHS63zECfkO68rUi3a2PpEtAXlPaNLOumeeGUPfa9D9nSLcKF5k-St3VrfFDsymlNVeYPwo82XjM2ATf-kF9dWe5Mog2ObkFSWQaLfj8Oa8e1ZEELEC-1mUYx86iNDhuoz~iuLquRq-HKju-r0PaB7CuPPpYzzIOW7XJepQ__");
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,7 +69,7 @@ h1 {
   border-radius: 5px; 
 }
 
-.search img {
+.icon {
   height: 20px;
   margin-top: 13px;
   margin-left: -30px;
@@ -292,8 +284,8 @@ h4 {
   margin-top: 100px;
   margin-bottom: 20px;
   font-size: 60px;
-  text-align: left;
-  margin-left: 100px;
+  text-align: center;
+  width: 635px;
 }
 
 .btn {
@@ -565,7 +557,6 @@ input {
   height: 584px;
   border-width: 1px;
   border-radius: 8px;
-  overflow: hidden;
   margin-bottom: 35px;
   padding-bottom: 20px;
 }
@@ -583,7 +574,7 @@ input {
 }
 
 .card h1 {
-  font-family: "lora", serif;
+  font-family: "lora";
   font-weight: 1000;
   font-size: 24px;
   width: 322px;
@@ -709,6 +700,10 @@ label {
   font-size: x-large;
   margin-left: 15px;
   color: #304F47;
+}
+
+.contact1 {
+  display: flex;
 }
 
 .inform h1 {
@@ -857,4 +852,333 @@ svg {
 .change img {
   height: 40px;
   padding: 10px;
+}
+
+nav svg {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .head {
+    padding: 10px;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 25px;
+    margin: 10px 0;
+  }
+
+  h3 {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+
+  .sign {
+    margin-top:-13px;
+  }
+
+  nav svg {
+    display: flex;
+    margin-left: 130px;
+    margin-top: 40px;
+    margin-right: 40px;
+  }
+
+  #logo {
+    margin-top: 10px;
+  }
+
+  .pat {
+    display: none;
+  }
+
+  .hero, .heroSection {
+    height: auto;
+    padding: 50px 20px;
+    text-align: center;
+    background-size: cover;
+  }
+
+  .hero h1, .heroSection h1 {
+    font-size: 28px;
+    line-height: 40px;
+    width: auto;
+    margin-top: -140px;
+  }
+
+  .hero p, .heroSection p {
+    font-size: 13px;
+    padding: 10px;
+    margin-top: -15px;
+  }
+
+  .heroSection img {
+    height: 15px;
+    margin: 0 6px;
+  }
+  .hero1 {
+    margin: 50px 0 0 0;
+  }
+
+  .gallery {
+    columns: 2 auto;
+    margin: 20px;
+  }
+
+  .gallery img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .search {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+
+  .search button {
+    width: 100%;
+  }
+
+  #search {
+    width: 100%;
+  }
+
+  .icon {
+    margin-top: -35px;
+    margin-left: 230px;
+    margin-bottom: 25px;
+  } 
+
+  h6{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 15px;
+    margin-top: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .cate {
+    gap: 25px;
+    width: 325px;
+    justify-content: center;
+  }
+
+  .cate h4 {
+    width: 120px;
+  }
+
+  .cate1 {
+    margin: -35px 0 0 -70px;
+  }
+
+  .cat1 {
+    flex-direction: column;
+  }
+
+  .cat1 button {
+    width: 90%;
+  }
+
+  /* Destination Cards */
+  .dest {
+    gap: 20px;
+  }
+
+  .place h1 {
+    font-size: 24px;
+    width: auto;
+    text-align: center;
+  }
+
+  .place p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* Choose Section */
+  .choose {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .react {
+    text-align: center;
+  }
+
+  .react img {
+    margin-left: 0
+  }
+  /* Testimonial Cards */
+  .test {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .tcard {
+    padding: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .last {
+    margin-left: 0;
+  }
+
+  .inform {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .inform h1 {
+    margin-bottom: 50px;
+  }
+
+  .con1 {
+    font-size: 50px;
+    margin-top: 30px;
+  }
+
+  .con2 {
+    width: 90%;
+    margin-left: 22px;
+    text-align: center;
+    margin-bottom: 210px;
+  }
+  
+
+  .social, .phone, .add {
+    width: 80%;
+    text-align: center;
+  }
+
+
+  button {
+    width: max-content;
+    font-size: 18px;
+    padding: 10px;
+  }
+
+ 
+  form {
+    width: 80%;
+    padding: 30px;
+  }
+
+  input {
+    width: 310px;
+  }
+
+  #tel {
+    width: 255px;
+  }
+
+  .name {
+    display: flex;
+    flex-direction: column;
+  }
+  .first-last {
+    flex-direction: column;
+  }
+
+  .first-last input {
+    width: 305px;
+  }
+
+  footer input {
+    width: 200px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grid1 h1 {
+    font-size: 36px;
+    margin-left: -5px;
+    text-align: center;
+    width: 400px;
+    margin-top: 105px;
+  }
+
+  .grid1 p {
+    margin-left: -60px;
+    text-align: center;
+    margin-top: -10px;
+  }
+
+  .grid2 img {
+    width: 100%;
+  }
+
+  .container {
+    overflow: hidden;
+    overflow-x: scroll;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+
+  .card {
+    height: 585px;
+    width: 350px;
+  }
+  
+  .card button {
+    width: max-content;
+  }
+
+  .part {
+    flex-direction: column;
+    margin: 10px 0 70px 20px;
+  }
+
+  .part img {
+    width: 100%;
+    margin-left: -10px;
+  }
+
+  .ig {
+    margin-left: 210px;
+  }
+
+  .part p {
+    width: 360px;
+    text-justify: distribute;
+    margin-bottom: 70px;
+  }
+
+  h2 {
+    width: 35%;
+    margin-left: 130px;
+    margin-bottom: 30px;
+  }
+
+  .hed {
+    font-size: 40px;
+  }
+
+  .grid2 {
+    display: none;
+  }
+
 }

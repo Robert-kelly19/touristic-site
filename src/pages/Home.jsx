@@ -64,6 +64,7 @@ export default function Home() {
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/709px-Vector_search_icon.svg.png"
           alt="search"
+          className="icon"
         />
         <div className="cate">
           <div>

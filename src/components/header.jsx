@@ -5,6 +5,7 @@ export default function Header() {
     <>
       <div className="head">
         <div className="contact">
+          <div className="contact1">
           <svg
             width="20"
             height="22"
@@ -18,7 +19,8 @@ export default function Header() {
             />
           </svg>
           <p>+250 784 688 641</p>
-          <svg
+          </div>
+          <div className="contact1"><svg
             width="25"
             height="20"
             viewBox="0 0 25 20"
@@ -30,7 +32,7 @@ export default function Header() {
               fill="white"
             />
           </svg>
-          <p>bbonteemma@gmail.com</p>
+          <p>bbonteemma@gmail.com</p></div>
         </div>
         <div className="media">
           <svg
@@ -133,30 +135,39 @@ export default function Header() {
             id="logo"
           />
           <div className="pat">
-              <p>
-                {" "}
-                <Link to="/">Home</Link>{" "}
-              </p>
-              <p>
-                {" "}
-                <Link to="/about">About</Link>
-              </p>
-              <p>
-                {" "}
-                <Link to="/package">Tour Package</Link>
-              </p>
-              <p>
-                {" "}
-                <Link to="/gallery">Gallery</Link>
-              </p>
-              <p>
-                <Link to="/gallery">Blog</Link>
-              </p>
-              <p>
-                {" "}
-                <Link to="/contact">Contact Us</Link>
-              </p>
+            <p>
+              {" "}
+              <Link to="/">Home</Link>{" "}
+            </p>
+            <p>
+              {" "}
+              <Link to="/about">About</Link>
+            </p>
+            <p>
+              {" "}
+              <Link to="/package">Tour Package</Link>
+            </p>
+            <p>
+              {" "}
+              <Link to="/gallery">Gallery</Link>
+            </p>
+            <p>
+              <Link to="/gallery">Blog</Link>
+            </p>
+            <p>
+              {" "}
+              <Link to="/contact">Contact Us</Link>
+            </p>
           </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="40px"
+            viewBox="0 -960 960 960"
+            width="40px"
+            fill="#304f37"
+          >
+            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+          </svg>
           <div>
             <span className="find">
               <img
