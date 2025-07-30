@@ -1,4 +1,3 @@
-import "./Card.css";
 export default function Cards() {
   return (
     <>
